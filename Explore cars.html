@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Cars</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    
+</head>
+<body>
+
+    
+    <header class="header">
+        <a href="Index.html" class="logo">Cars.</a>
+
+        <nav class="navbar">
+            <a href="Index.html" style="--i:1">Home</a>
+            <a href="#" style="--i:2">About</a>
+            <a href="#" style="--i:3">Review</a>
+            <a href="#" style="--i:4">Featured</a>
+            <a href="Contact.html" style="--i:5">Contact</a>
+        </nav>
+
+       
+    </header>
+
+    <div class="container">
+    
+       <div class="swiper">
+          <div class="swiper-wrapper">
+      
+      <div class="swiper-slide"><a href="https://www.bmw.lk/en/all-models.html"><img src="./bmw-logo-1997-download.png.webp" ></a></div>
+      <div class="swiper-slide"><a href="https://www.toyota.com/cars/"><img src="./toyota-logo-2005-download.png.webp" ></a></div>
+      <div class="swiper-slide"><a href=""><img src="./honda-logo-2000-full-download.png.webp" ></a></div>
+      <div class="swiper-slide"><a href=""><img src="./nissan-logo-2013-700x700.png.webp" ></a></div>
+      <div class="swiper-slide"><a href=""><img src="./audi-logo-2009-download.png.webp" ></a></div>
+      <div class="swiper-slide"><a href=""><img src="./ford-logo-2017-download.png.webp" ></a></div>
+      <div class="swiper-slide"><a href=""><img src="./Mercedes-Benz-logo-2011-1920x1080.png.webp" ></a></div>
+      <div class="swiper-slide"><a href=""><img src="./jeep-logo-1993-download.png" ></a></div>
+      <div class="swiper-slide"><a href=""><img src="./jaguar-logo-2012-download.png.webp" ></a></div>
+      <div class="swiper-slide"><a href=""><img src="./Land-Rover-logo-2011-1920x1080.png.webp" ></a></div>
+      <div class="swiper-slide"><a href=""><img src="./Kia-logo-2560x1440.png.webp" ></a></div>
+      <div class="swiper-slide"><a href=""><img src="./Suzuki-logo-5000x2500.png.webp" ></a></div>
+      <div class="swiper-slide"><a href=""><img src="./Volvo-logo-2014-1920x1080.png" ></a></div>
+      <div class="swiper-slide"><a href=""><img src="./Renault-logo-2015-2048x2048.png.webp" ></a></div>
+      <div class="swiper-slide"><a href=""><img src="./hyundai-logo-2011-download.png.webp" ></a></div>
+      <div class="swiper-slide"><a href=""><img src="./porsche-logo-2014-full-download.png.webp" ></a></div>
+      <div class="swiper-slide"><a href=""><img src="./mazda-logo-2018-vertical-download.png.webp" ></a></div>
+      
+      
+    </div>
+    
+    <div class="swiper-pagination"></div>
+  
+    
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+   
+      </div>
+     </div>
+
+        
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+
+            
+     loop: true,
+
+     pagination: {
+     el: '.swiper-pagination',
+     clickable: true,
+     },
+
+
+     navigation: {
+     nextEl: '.swiper-button-next',
+     prevEl: '.swiper-button-prev',
+     },
+
+  
+    });
+    </script>
+
+</body>
+</html>
